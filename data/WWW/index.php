@@ -12,4 +12,8 @@ define('DS_NUMBER', '110');	//授权号，删除可能引响系统稳定性
 define('TIFAWEB_DSWJCMS','Dswjcms');	//后台访问地址
 require(THINK_PATH.'./ThinkPHP.php');
 
+   if(1){
+       $a=array(1,22,4,34);
+   }
+
 ?>

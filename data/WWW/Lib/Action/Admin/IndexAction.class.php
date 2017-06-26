@@ -118,7 +118,7 @@ class IndexAction extends AdminCommAction {
 			}
     }
 //--------管理操作记录-----------
-     public function operation(){
+     public function operation($where){
 		 if($this->_get('title')){
 			$where.="`name` LIKE '%".$this->_get('title')."%'";
 		}
