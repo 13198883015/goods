@@ -14,6 +14,7 @@ defined('THINK_PATH') or exit();
 class IndexAction extends AdminCommAction {
 //后台首页
 	public function index(){
+		echo "asdasdad";
 		$stat=$this->statistical();
 		$this->assign('stat',$stat);
         $this->display();
